@@ -9,7 +9,7 @@ int main()
 		length = sizeof(a)/sizeof(int);
 		cout << length << endl;
 		cout << a[0] << endl;
-		for(size_t i = length; i--;)
-			cout << a[i];
+		for(int i = 0; i < length; i++)
+			cout << a[i] << ", ";
 		//for(size_t i = numElements; i--;)
 	}
