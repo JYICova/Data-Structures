@@ -12,4 +12,13 @@ int main()
 		for(int i = 0; i < length; i++)
 			cout << a[i] << ", ";
 		//for(size_t i = numElements; i--;)
+
+		// input an index to read from array
+		int i;
+		cout << "\nEnter Index: ";
+		cin >> i;
+		cout << a[i];
+
 	}
+
+
