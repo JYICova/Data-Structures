@@ -17,7 +17,16 @@ int main()
 		int i;
 		cout << "\nEnter Index: ";
 		cin >> i;
-		cout << a[i];
+		cout << a[i] << endl;
+		cout << "Press a key to continue...";
+		cin >> i;
+		// do 
+		//  {
+		//    cout << '\n' << "Press a key to continue...";
+		//  } while {}
+		//  (cin.get() != '\n');
+		// }
+
 
 	}
 
