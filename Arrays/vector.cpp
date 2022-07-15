@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 	{
-		int const a[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 4};
+		int a[] = {3, 1, 4, 1, 5, 9, 2, 6, 5, 4};
 		int length;
 		length = sizeof(a)/sizeof(int);
 		cout << length << endl;
@@ -18,8 +18,10 @@ int main()
 		cout << "\nEnter Index: ";
 		cin >> i;
 		cout << a[i] << endl;
+		a[0] = 1;
 		cout << "Press a key to continue...";
-		cin >> i;
+		cin.get();
+		cin.get();
 		// do 
 		//  {
 		//    cout << '\n' << "Press a key to continue...";
