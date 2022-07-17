@@ -27,6 +27,9 @@ int main()
     cout << "\nOutput of crbegin and crend : ";
     for (auto ir = g1.crbegin(); ir != g1.crend(); ++ir)
         cout << *ir << " ";
+
+    int list[] =  {1, 2, 3};
+    cout << "\n" << list[0] << endl;
   
     return 0;
 }
